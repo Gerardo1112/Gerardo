@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  }
+
+  .columns {
+    display: flex;
+    flex-wrap: wrap;
+}
+.column {
+    width: 33.33%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.column img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.column h3 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+.column p {
+    font-size: 1em;
+}
+
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    }
+    
+    ul {
+    list-style: none;
+    display: flex;
+    }
+    
+    li {
+    margin: 0 20px;
+    }
+    
+    a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    }
+    
+    a:hover {
+    color: #555;
+    }
+  header {
+  background-color: #1f2124;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  
+  nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  }
+  
+  nav ul li {
+  margin-right: 30px;
+  }
+  
+  nav ul li:last-child {
+  margin-right: 0;
+  }
+  
+  nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  }
+  
+  section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px 0;
+  }
+  
+  .tabla-posiciones table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 50px;
+  }
+  
+  .tabla-posiciones th {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  }
+  
+  .tabla-posiciones td {
+    
+  font-size: 16px;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  }
+  
+  .tabla-proximos-partidos table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 50px;
+  }
+  
+  .tabla-proximos-partidos td {
+  font-size: 16px;
+  padding: 10px 10px;
+  border-bottom: 1px solid #ddd;
+  }
+
+  
+  .patrocinadores {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  }
+  
+  .contenedor-patrocinadores img {
+  width: 45%;
+  height: auto;
+  }
+  
+  .contenedor-patrocinadores a:last-child img {
+  margin-left: 10%;
+  }
+  img{
+
+    border-radius: 1em;
+  }
+  
+
+  
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');

@@ -1,0 +1,138 @@
+/* Estilos generales */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F7F7F7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el encabezado y el menú de navegación */
+header {
+    background-color: #000;
+    color: #FFF;
+    padding: 20px;
+    
+    
+
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+nav li a {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+    border-bottom: 3px solid transparent;
+}
+nav li a:hover {
+    border-bottom: 3px solid #FFF;
+}
+
+/* Estilos para la sección de mejores jugadores */
+.columns {
+    display: flex;
+    flex-wrap: wrap;
+}
+.column {
+    width: 33.33%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.column img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.column h3 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+.column p {
+    font-size: 1em;
+}
+
+/* Estilos para la tabla de posiciones */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+thead {
+    background-color: #000;
+    color: #FFF;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #CCC;
+}
+tbody tr:nth-child(even) {
+    background-color: #F2F2F2;
+}
+
+/* Estilos para la sección de mejor equipo de la temporada */
+section:nth-child(3) div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section:nth-child(3) img {
+    width: 50%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Estilos para la sección de patrocinadores */
+.sponsors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sponsors img {
+    width: 20%;
+    height: auto;
+    margin: 10px;
+}
+
+.Title{
+
+text-align: center
+
+}
+/* Agregar transición de desvanecimiento */
+.column img {
+    transition: opacity 0.3s ease;
+  }
+  
+  /* Agregar efecto de desvanecimiento */
+  .column img:hover {
+    opacity: 0.7;
+  }
+  
+  /* Agregar transición de aumento de tamaño */
+  .column img:active {
+    transform: scale(1.1);
+  }
+ hr{
+
+width: 500px;
+
+ }
+  
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');

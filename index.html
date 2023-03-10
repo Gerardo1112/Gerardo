@@ -1,0 +1,245 @@
+<!DOCTYPE html><!--Indicamos que es un documento de tipo Html-->
+<html lang="es">
+
+<head><!--Colocamos Titulo icono de URL Cosas Principales establecemos el lenguaje de nuestra pagina-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Indicamos que nuestra pagina sea visible 
+    en pantalla completa-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+    <title>BTH</title>
+    <link rel="stylesheet" href="estilos.css"><!--Conectamos nuestra pagina Web -->
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+</head>
+                
+<body class="hidden">
+    <div class="centrado" id="onload">
+        <div class="lds-facebook"><div></div><div></div><div></div></div>
+    </div>
+    <header>
+        <nav id="nav" class="nav1">
+            <div class="contenedor-nav">
+                <div class="logo">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <div class="enlaces" id="enlaces">
+                    <a href="#" id="enlace-inicio" class="btn-header">Inicio</a>
+                    <a href="#" id="enlace-equipo" class="btn-header">Profesores</a>
+                    <a href="#" id="enlace-servicio" class="btn-header">Carreras</a>
+                    <a href="#" id="enlace-trabajo" class="btn-header">Proyectos</a>
+                    <a href="#" id="enlace-contacto" class="btn-header">Contacto</a>
+                    <a href="C:\Users\Gera\Downloads\BTH PAGINA\eSports.html">Deportes</a>
+                </div>
+                <div class="icono" id="open">
+                    <span>&#9776;</span>
+                </div>
+            </div>
+        </nav>
+        <div class="textos">
+            <h1>BTH</h1><!--Importante Utiizar para Titulos o Subtitulos-->
+            <h2>SANTA ANITA HULOAC</h2><!--Solo extisten hasta h6 -->
+        </div>
+    </header>
+    <main>
+        <section class="team contenedor" id="equipo">
+            <h3>Profesores</h3>
+            <p class="after">Conoce a los docentes de nuestra institucion</p><!--Esta es la etiqueta de Parrafo-->
+            <!--Importante comentar existe la etiqueta <hr> esta sirve para colocar una linea de divicion entre textos etc-->
+
+
+
+
+
+
+
+
+            <div class="card">
+                <div class="content-card">
+                    <div class="people">
+                        <img src="img/people1.png" alt="">
+                    </div>
+                    <div class="texto-team">
+                        <h4>Laureano Morales Perez</h4>
+                        <p>ING.<span style="color: brown;"> INDUSTRIAL</span></p><!--Con la etiqueta <span>
+                             sirve para relatar con un color a un texto-->
+                    </div>
+                </div>
+                <div class="content-card">
+                    <div class="people">
+                        <img src="img/people2.png" alt="">
+                    </div>
+
+                    <!--Existe una etiqueta para poner enlaces o vinculos con la cual podemos redireccionar a otra pagina esta es la etiqueta 
+                        <a href="https//www.google.com">Soy un Link </a> para abrirla en otra pestaña ponemos lo siguiente 
+                        <a target="_blank"href="https//www.google.com"> Soy un Link </a>-->
+
+
+                    <div class="texto-team">
+                        <h4>Maria Isabel Cantor Rodriguez</h4>
+                        <p>MTRA EN INTERPRETACION Y TRADUCCION</p>
+                    </div>
+                </div>
+                <div class="content-card">
+                    <div class="people">
+                        <img src="img/people3.png" alt=""><!--Esta etiqueta <img src="Ruta de nuestra imagen"/>
+                            sirve para colocar imagenes en nuestra pagina "Tamaño establecido en css" -->
+                    </div>
+                    <div class="texto-team">
+                        <h4>Hayke Parada Rocha</h4>
+                        <p>LIC.INFORMATICA</p>
+                    </div>
+                </div>
+
+                <!--FORMULARIO
+                     ojo para establecer esta etiqueta la tenemos que encerrar en estas 2 <form> <input/> </form>
+                    Existe una etiqueta <input/>=Entrada en la cual creamos un cuadro de texto.
+                para colocar lo que nesecitamos de ese <input/> colocamos la siguiente etiqueta <label>Nombre</label>
+            
+                Ejemplo Torpe
+                <form action="/formulario" method=GET OR SUBMIT> 
+                <label for="Nombre">Nombre</label>
+                    <input id="Nombre name="Nombre" placeholder="Nombre"/> For Servidor name="Nombre".
+                    type="password-text-email-radio-chekbox-file"
+                   
+                        </form>
+            
+            -->
+            </div>
+        </section>
+        <section class="about" id="servicio">
+            <div class="contenedor">
+                <h3>Nuestras Carreras</h3>
+                <p class="after">Siempre mejorando para ti</p>
+                <div class="servicios">
+                    <div class="caja-servicios">
+                        <img src="img/responsive.png" alt="">
+                        <h4>Programacion</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                    <div class="caja-servicios">
+                        <img src="img/efectos.png" alt="">
+                        <h4>Gestion Administrativa</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Botones
+    Tres tipos
+<button type="button" >Click</button>
+<button type="reset">Reiniciar</button>
+<button type="submit">Enviar</button>
+
+
+-->
+
+        <section class="work contenedor" id="trabajo">
+            <h3>Proyectos</h3>
+            <p class="after">Hacemos de algo simple algo extraordinario</p>
+            <div class="botones-work">
+                <!--ul es lista no ordenada -->
+                <ul>
+                    <li class="filter active" data-nombre='todos'>Todos</li>
+                    <li class="filter" data-nombre='diseño'>Deporte</li>
+                    <li class="filter" data-nombre='programacion'>Programacion</li>
+                    <li class="filter" data-nombre='marketing'>Administracion</li>
+                </ul>
+
+
+
+            </div>
+            <div class="galeria-work">
+                <div class="cont-work programacion">
+                    <div class="img-work">
+                        <img src="img/programacion1.jpeg" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>Programacion</h4>
+                    </div>
+                </div>
+                <div class="cont-work programacion">
+                    <div class="img-work">
+                        <img src="img/programacion2.jpeg" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>Programacion</h4>
+                    </div>
+                </div>
+                <div class="cont-work programacion">
+                    <div class="img-work">
+                        <img src="img/programacion3.jpeg" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>Programacion</h4>
+                    </div>
+                </div>
+                <div class="cont-work diseño">
+                    <div class="img-work">
+                        <img src="img/deporte1.jpg" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>Deporte</h4>
+                    </div>
+                </div>
+                <div class="cont-work diseño">
+                    <div class="img-work">
+                        <img src="img/Deporte2.jpg" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>Deporte</h4>
+                    </div>
+                </div>
+                <div class="cont-work diseño">
+                    <div class="img-work">
+                        <img src="img/Deporte3.jpg" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>Deporte</h4>
+                    </div>
+                </div>
+                <div class="cont-work marketing">
+                    <div class="img-work">
+                        <img src="img/marketing1.jpeg" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>Administracion</h4>
+                    </div>
+                </div>
+                <div class="cont-work marketing">
+                    <div class="img-work">
+                        <img src="img/marketing2.jpeg" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>Administracion</h4>
+                    </div>
+                </div>
+                <div class="cont-work marketing">
+                    <div class="img-work">
+                        <img src="img/marketing3.jpeg" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>Administracion</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="contacto">
+        <div class="footer contenedor">
+            <div class="marca-logo">
+                <img src="img/logo.png" alt="">
+            </div>
+         
+            <p>La pasión e innovación es lo que nos <br> distingue del resto</p><!--La etiqueta <br> sirve o funciona como un endl 
+                salto de linea-->
+            <p>bachillerato.huiloac@gmail.com</p>
+        </div>
+
+    </footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/filtro.js"></script>
+</body>
+</html>
