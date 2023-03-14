@@ -61,7 +61,7 @@ h1 {
     left: 0;
 }
 .section {
-    background: linear-gradient(to bottom, orange, black);
+   
     padding: 30px;
     margin-bottom: 30px;
     
@@ -79,6 +79,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background: linear-gradient(to right, #ff0000, #0099ffb0, #b3ff0096);
   }
   
   .carousel img {
