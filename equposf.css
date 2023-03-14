@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    background-color: black;
+    background: linear-gradient(to right, #ffffff, #000000b0);
     }
 /* Estilos para el header */
 
