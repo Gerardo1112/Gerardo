@@ -1,0 +1,174 @@
+/* Estilo general de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+    
+    /* Estilo del encabezado */
+    header {
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    }
+    
+    nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+    nav li {
+    display: inline-block;
+    margin-right: 20px;
+    }
+    
+    nav a {
+    color: #ffffff;
+    text-decoration: none;
+    }
+    
+    nav a:hover {
+    color: #ff0000;
+    }
+    
+    .logo img {
+    width: 100px;
+    }
+    
+    /* Estilo de la sección de estadísticas del equipo */
+    .team-stats {
+    margin-top: 100px;
+    text-align: center;
+    }
+    
+    .team-stats h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    }
+    
+    .team-stats table {
+    margin: 0 auto;
+    width: 80%;
+    border-collapse: collapse;
+    }
+    
+    .team-stats th {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px;
+    }
+    
+    .team-stats td {
+    border: 1px solid #000000;
+    padding: 10px;
+    }
+    
+    /* Estilo de la sección de estadísticas del jugador */
+    .player-stats {
+    margin-top: 50px;
+    }
+    
+    .player-stats h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+    }
+    
+    .player {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    }
+    
+    .player-image img {
+    width: 200px;
+    margin-right: 20px;
+    }
+    
+    .player-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    }
+    
+    .player-info p {
+    font-size: 18px;
+    margin: 0;
+    }
+    
+    .player-stats p {
+    font-size: 18px;
+    margin: 0;
+    margin-left: 20px;
+    }
+    
+    .players {
+  background-color: #f2f2f2;
+  padding: 50px;
+}
+
+.players h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.players-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.player-card {
+  width: 300px;
+  margin: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border-radius: 5px;
+}
+
+.player-card img {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+  background: linear-gradient(to right, #008e2f, #00ea4e, #ffffff);
+
+}
+
+.player-card h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.player-card p {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #666;
+}
+.player-card img {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .player-card img:hover {
+    transform: scale(1.1);
+  }
+  .player-card h3 {
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .player-card h3:hover {
+    color: #ff5733;
+  }
+  
