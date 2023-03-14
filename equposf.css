@@ -80,6 +80,7 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
     background: linear-gradient(to right, #ff0000, #0099ffb0, #b3ff0096);
+    border-radius: 10px;
   }
   
   .carousel img {
